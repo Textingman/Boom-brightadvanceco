@@ -70,7 +70,7 @@ function VerifyPageContent() {
         {/* Logo/Brand */}
         <div className="flex justify-center mb-8">
           <Image 
-            src="/NRCVerify.png" 
+            src="/Logo.png" 
             alt="Bright Advance Co" 
             width={320} 
             height={107}
@@ -80,8 +80,8 @@ function VerifyPageContent() {
 
         {/* Verification Content */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-12 h-12 text-[#F59E0B]" />
+          <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-12 h-12 text-[#60A5FA]" />
           </div>
           
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -95,7 +95,7 @@ function VerifyPageContent() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter phone number"
-              className="w-full bg-gray-50 rounded-lg p-6 text-3xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#F59E0B] focus:outline-none transition-colors"
+              className="w-full bg-gray-50 rounded-lg p-6 text-3xl font-bold text-gray-900 tracking-wider text-center border-2 border-gray-200 focus:border-[#7C3AED] focus:outline-none transition-colors"
             />
           </div>
 
@@ -106,7 +106,7 @@ function VerifyPageContent() {
             className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
               isRedirecting
                 ? 'bg-gray-400 cursor-not-allowed'
-                : 'bg-[#F59E0B] hover:bg-[#D97706] text-white shadow-lg hover:shadow-xl'
+                : 'bg-[#7C3AED] hover:bg-[#6D28D9] text-white shadow-lg hover:shadow-xl'
             }`}
           >
             {isRedirecting ? (
@@ -139,7 +139,7 @@ export default function VerifyPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-white flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#F59E0B] mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#7C3AED] mx-auto"></div>
           <p className="mt-4 text-gray-600">Loading...</p>
         </div>
       </div>

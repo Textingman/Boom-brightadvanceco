@@ -46,7 +46,7 @@ export default function SignupPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/NRCVerify.png" 
+                  src="/Logo.png" 
                   alt="Bright Advance Co" 
                   width={500} 
                   height={167}
@@ -56,19 +56,19 @@ export default function SignupPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59E0B] text-white hover:bg-[#D97706] px-4 py-2 rounded-md text-sm font-medium">
+                <Link href="/signup" className="bg-[#7C3AED] text-white hover:bg-[#6D28D9] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
               </div>
@@ -107,7 +107,7 @@ export default function SignupPage() {
               </p>
               <Link
                 href="/"
-                className="inline-block px-6 py-3 bg-[#F59E0B] text-white font-semibold rounded-lg hover:bg-[#D97706] transition-colors"
+                className="inline-block px-6 py-3 bg-[#7C3AED] text-white font-semibold rounded-lg hover:bg-[#6D28D9] transition-colors"
               >
                 Return to Home
               </Link>
@@ -138,7 +138,7 @@ export default function SignupPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F59E0B] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                       placeholder="John Doe"
                     />
                   </div>
@@ -220,7 +220,7 @@ export default function SignupPage() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F59E0B] focus:border-transparent"
+                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#7C3AED] focus:border-transparent"
                     placeholder="How do you plan to use Bright Advance Co?"
                   />
                 </div>
@@ -233,7 +233,7 @@ export default function SignupPage() {
                       <input
                         type="checkbox"
                         id="sms-consent"
-                        className="mt-1 h-4 w-4 text-[#F59E0B] focus:ring-[#F59E0B] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#7C3AED] focus:ring-[#7C3AED] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
                         By checking this box, you provide consent to receive automated SMS messages from Bright Advance Co. Message frequency varies and message and data rates may apply. You may opt-out by replying 'STOP'. Reply 'HELP' for help or email support@brightadvanceco.com. Consent is not required as a condition of purchasing any products or services.
@@ -281,11 +281,11 @@ export default function SignupPage() {
                       />
                       <label htmlFor="terms-consent" className="ml-3 text-sm leading-relaxed text-gray-700">
                         I agree with the{' '}
-                        <Link href="/terms" className="text-[#F59E0B] hover:text-[#D97706] font-medium underline">
+                        <Link href="/terms" className="text-[#7C3AED] hover:text-[#6D28D9] font-medium underline">
                           Terms & Conditions
                         </Link>{' '}
                         and{' '}
-                        <Link href="/privacy" className="text-[#F59E0B] hover:text-[#D97706] font-medium underline">
+                        <Link href="/privacy" className="text-[#7C3AED] hover:text-[#6D28D9] font-medium underline">
                           Privacy Policy
                         </Link>
                         .
@@ -301,7 +301,7 @@ export default function SignupPage() {
                   className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
                     isSubmitting
                       ? 'bg-gray-400 cursor-not-allowed'
-                      : 'bg-[#F59E0B] hover:bg-[#D97706] text-white shadow-lg hover:shadow-xl'
+                      : 'bg-[#7C3AED] hover:bg-[#6D28D9] text-white shadow-lg hover:shadow-xl'
                   }`}
                 >
                   {isSubmitting ? (

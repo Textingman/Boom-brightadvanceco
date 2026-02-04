@@ -11,7 +11,7 @@ export default function PrivacyPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/NRCVerify.png" 
+                  src="/Logo.png" 
                   alt="Bright Advance Co" 
                   width={500} 
                   height={167}
@@ -21,19 +21,19 @@ export default function PrivacyPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-gray-900 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-gray-900 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-gray-600 hover:text-[#F59E0B] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-gray-600 hover:text-[#F58B33] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59E0B] text-white hover:bg-[#D97706] px-4 py-2 rounded-md text-sm font-medium">
+                <Link href="/signup" className="bg-[#7C3AED] text-white hover:bg-[#6D28D9] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
               </div>
@@ -156,7 +156,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@brightadvanceco.com" className="text-[#F59E0B] hover:text-[#D97706]">privacy@brightadvanceco.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@brightadvanceco.com" className="text-[#7C3AED] hover:text-[#6D28D9]">privacy@brightadvanceco.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -194,9 +194,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@brightadvanceco.com" className="text-[#F59E0B] hover:text-[#D97706]">privacy@brightadvanceco.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@brightadvanceco.com" className="text-[#F59E0B] hover:text-[#D97706]">support@brightadvanceco.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#F59E0B] hover:text-[#D97706]">https://brightadvanceco.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@brightadvanceco.com" className="text-[#7C3AED] hover:text-[#6D28D9]">privacy@brightadvanceco.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@brightadvanceco.com" className="text-[#7C3AED] hover:text-[#6D28D9]">support@brightadvanceco.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#7C3AED] hover:text-[#6D28D9]">https://brightadvanceco.com</a></p>
           </div>
 
         </div>
