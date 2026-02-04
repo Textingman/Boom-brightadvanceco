@@ -13,7 +13,7 @@ export default function HomePage() {
               <Link href="/" className="flex-shrink-0">
                 <Image 
                   src="/Logo.png" 
-                  alt="Bright Advance Co" 
+                  alt="Bright Advance Verify" 
                   width={500} 
                   height={167}
                   className="h-24 w-auto"
@@ -164,7 +164,7 @@ export default function HomePage() {
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/c29d1085-8e40-4da8-ba88-277f23505d36.png" 
-                alt="Bright Advance Co Solutions"
+                alt="Bright Advance Verify Solutions"
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -182,7 +182,7 @@ export default function HomePage() {
               Transform Your Authentication Today
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join innovative companies leveraging Bright Advance Co to secure transactions and elevate customer experiences.
+              Join innovative companies leveraging Bright Advance Verify to secure transactions and elevate customer experiences.
             </p>
             <Link
               href="/signup"
@@ -199,7 +199,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Bright Advance Co</h3>
+              <h3 className="text-xl font-bold mb-4">Bright Advance Verify</h3>
               <p className="text-gray-400">
                 Secure SMS authentication solutions.
               </p>
@@ -237,12 +237,12 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@brightadvanceco.com
+                support@brightadvanceverify.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Bright Advance Co. All rights reserved.</p>
+            <p>&copy; 2025 Bright Advance Verify. All rights reserved.</p>
           </div>
         </div>
       </footer>

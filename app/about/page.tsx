@@ -13,7 +13,7 @@ export default function AboutPage() {
               <Link href="/" className="flex-shrink-0">
                 <Image 
                   src="/Logo.png" 
-                  alt="Bright Advance Co" 
+                  alt="Bright Advance Verify" 
                   width={500} 
                   height={167}
                   className="h-24 w-auto"
@@ -48,7 +48,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-              About Bright Advance Co
+              About Bright Advance Verify
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Pioneering next-generation SMS authentication technology that empowers businesses to protect their customers and streamline operations.
@@ -63,7 +63,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Vision</h2>
             <p className="text-lg text-gray-600 mb-4">
-              Bright Advance Co emerged from a clear market need: organizations require dependable SMS authentication that balances security with exceptional delivery performance.
+              Bright Advance Verify emerged from a clear market need: organizations require dependable SMS authentication that balances security with exceptional delivery performance.
             </p>
             <p className="text-lg text-gray-600 mb-4">
               Our platform serves as a secure bridge connecting enterprises with their users, ensuring every interaction is authenticated and trustworthy.
@@ -172,7 +172,7 @@ export default function AboutPage() {
             Experience the Difference
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Partner with Bright Advance Co and discover why leading companies choose our authentication platform.
+            Partner with Bright Advance Verify and discover why leading companies choose our authentication platform.
           </p>
           <Link
             href="/signup"
@@ -188,7 +188,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Bright Advance Co</h3>
+              <h3 className="text-xl font-bold mb-4">Bright Advance Verify</h3>
               <p className="text-gray-400">
                 Secure SMS authentication solutions.
               </p>
@@ -226,12 +226,12 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@brightadvanceco.com
+                support@brightadvanceverify.com
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Bright Advance Co. All rights reserved.</p>
+            <p>&copy; 2025 Bright Advance Verify. All rights reserved.</p>
           </div>
         </div>
       </footer>
