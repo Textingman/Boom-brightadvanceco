@@ -48,11 +48,11 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            Verify Your Customers
-            <span className="block text-[#7C3AED]">With Confidence</span>
+            Authenticate Customers
+            <span className="block text-[#7C3AED]">Instantly & Securely</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Send verification and notifications easily. Ensure your customers are who they say they are with our SMS verification service.
+            Streamline customer authentication with our powerful SMS verification platform. Protect your business while delivering seamless user experiences.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -74,9 +74,9 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why Choose Bright Advance Co?</h2>
+          <h2 className="text-4xl font-bold text-gray-900">What Makes Us Different?</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to verify customer identity and improve engagement
+            Enterprise-grade authentication trusted by forward-thinking companies
           </p>
         </div>
 
@@ -87,10 +87,10 @@ export default function HomePage() {
               <CheckCircle className="w-12 h-12 text-[#60A5FA]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Easy Verification
+              Effortless Integration
             </h3>
             <p className="text-gray-600 text-center">
-              Simple, user-friendly verification flow that customers can complete in seconds.
+              Intuitive authentication workflow designed for maximum conversion with minimal friction.
             </p>
           </div>
 
@@ -100,10 +100,10 @@ export default function HomePage() {
               <Zap className="w-12 h-12 text-[#60A5FA]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Lightning Fast
+              Blazing Performance
             </h3>
             <p className="text-gray-600 text-center">
-              Optimized for speed with page loads under 2 seconds, even on mobile networks.
+              Ultra-fast delivery infrastructure ensures instant verification, even on slower connections.
             </p>
           </div>
 
@@ -113,10 +113,10 @@ export default function HomePage() {
               <Users className="w-12 h-12 text-[#60A5FA]" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Multi-Brand Support
+              Flexible Branding
             </h3>
             <p className="text-gray-600 text-center">
-              Support multiple brands with customizable styling and white-label options.
+              Fully customizable interface that adapts to your brand identity with white-label capabilities.
             </p>
           </div>
         </div>
@@ -126,9 +126,9 @@ export default function HomePage() {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900">Our Solutions</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Powerful Features</h2>
             <p className="mt-4 text-xl text-gray-600">
-              Streamline your verification and engagement process
+              Transform how you authenticate and engage with customers
             </p>
           </div>
 
@@ -137,25 +137,25 @@ export default function HomePage() {
             <div className="space-y-12">
               {/* Solution 1 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Identity Verification</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Instant Authentication</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Begin by dispatching a straightforward verification request to your users, aiming to confirm their identity efficiently.
+                  Deploy secure verification requests that authenticate users in real-time, reducing fraud while maintaining a smooth customer experience.
                 </p>
               </div>
 
               {/* Solution 2 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Document Link</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Smart Link Distribution</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Distribute document links directly to your users for electronic signatures. This method significantly enhances conversion rates compared to email and other communication channels.
+                  Send secure document links via SMS for e-signatures and approvals. Experience up to 3x higher engagement compared to traditional email delivery.
                 </p>
               </div>
 
               {/* Solution 3 */}
               <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Form Submission Process</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Automated Recovery</h3>
                 <p className="text-lg text-gray-600 leading-relaxed">
-                  Re-engage customers who have abandoned the form process by setting up automated messages designed to recapture their interest and complete their submissions.
+                  Recover abandoned applications with intelligent SMS reminders that bring customers back to complete their journey, boosting completion rates significantly.
                 </p>
               </div>
             </div>
@@ -179,10 +179,10 @@ export default function HomePage() {
         <div className="bg-[#7C3AED] rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Get Started?
+              Transform Your Authentication Today
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust Bright Advance Co for SMS verification and improved customer engagement.
+              Join innovative companies leveraging Bright Advance Co to secure transactions and elevate customer experiences.
             </p>
             <Link
               href="/signup"
@@ -201,7 +201,7 @@ export default function HomePage() {
             <div>
               <h3 className="text-xl font-bold mb-4">Bright Advance Co</h3>
               <p className="text-gray-400">
-                SMS verification for businesses.
+                Secure SMS authentication solutions.
               </p>
             </div>
             <div>
